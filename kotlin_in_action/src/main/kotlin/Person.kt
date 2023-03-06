@@ -27,5 +27,8 @@ class Test {
         println(person.name)
 
         println(person.isMarried)
+
+        // Java에서는 Setter를 사용하지만, 코틀린에서는 프로퍼티 이름으로 접근한다.
+        person.isMarried = false;
     }
 }

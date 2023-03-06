@@ -1,4 +1,4 @@
-abstract class VariableTypeInferance {
+class VariableTypeInferance {
 
     // Kotlin은 타입 추론을 지원하기 때문에, 타입을 표기하지 않아도 된다.
 
