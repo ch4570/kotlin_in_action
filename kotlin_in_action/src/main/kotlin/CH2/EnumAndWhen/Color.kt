@@ -1,4 +1,4 @@
-package EnumAndWhen
+package CH2.EnumAndWhen
 
 enum class Color(
 
@@ -14,5 +14,5 @@ enum class Color(
 }
 
 fun main(args: Array<String>) {
-    println(Color.BLUE.rgb())
+    println(CH2.EnumAndWhen.Color.BLUE.rgb())
 }

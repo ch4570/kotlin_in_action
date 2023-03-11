@@ -1,12 +1,12 @@
-package EnumAndWhen
+package CH2.EnumAndWhen
 
-import EnumAndWhen.Color.*;
+import CH2.EnumAndWhen.Color.*;
 
 // 인자 없는 when 사용 -> 인자 없이 when을 사용하면 불필요한 객체 생성이 줄어들어 성능에 유리하다.
 
 class NoArgumentWhen {
 
-    fun mixOptimized(c1: Color, c2: Color) =
+    fun mixOptimized(c1: CH2.EnumAndWhen.Color, c2: CH2.EnumAndWhen.Color) =
         when {
             (c1 == RED && c2 == YELLOW) ||
                     (c1 == YELLOW && c2 == RED) ->
@@ -26,7 +26,7 @@ class NoArgumentWhen {
 }
 
 fun main() {
-    val mixOptimized = NoArgumentWhen()
+    val mixOptimized = CH2.EnumAndWhen.NoArgumentWhen()
 
     println("mixOptimized(BLUE, YELLOW) -> ${mixOptimized.mixOptimized(BLUE,YELLOW)}")
 

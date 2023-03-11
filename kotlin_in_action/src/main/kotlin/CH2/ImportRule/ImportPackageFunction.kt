@@ -1,4 +1,4 @@
-package ImportRule
+package CH2.ImportRule
 
 import createRandomTriangle
 

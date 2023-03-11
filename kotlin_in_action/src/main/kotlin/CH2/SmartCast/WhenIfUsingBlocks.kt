@@ -1,4 +1,4 @@
-package SmartCast
+package CH2.SmartCast
 
 class WhenIfUsingBlocks {
 

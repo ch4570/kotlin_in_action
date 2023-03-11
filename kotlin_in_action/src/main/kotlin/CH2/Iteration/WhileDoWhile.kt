@@ -1,4 +1,4 @@
-package Iteration
+package CH2.Iteration
 
 class WhileDoWhile {
 

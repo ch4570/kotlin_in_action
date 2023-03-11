@@ -1,10 +1,10 @@
-package EnumAndWhen
+package CH2.EnumAndWhen
 
-import EnumAndWhen.Color.*
+import CH2.EnumAndWhen.Color.*
 
 class ChangeEnumTest {
 
-    fun mix(c1: Color, c2: Color) =
+    fun mix(c1: CH2.EnumAndWhen.Color, c2: CH2.EnumAndWhen.Color) =
 
         when(setOf(c1, c2)) {
 
@@ -20,8 +20,8 @@ class ChangeEnumTest {
 
 fun main() {
     // 정상 작동
-    println("Let's Mix! => ${ChangeEnumTest().mix(BLUE, YELLOW)}")
+    println("Let's Mix! => ${CH2.EnumAndWhen.ChangeEnumTest().mix(BLUE, YELLOW)}")
 
     // 예외 발생
-    println("Let's Mix! => ${ChangeEnumTest().mix(INDIGO,RED)}")
+    println("Let's Mix! => ${CH2.EnumAndWhen.ChangeEnumTest().mix(INDIGO,RED)}")
 }
