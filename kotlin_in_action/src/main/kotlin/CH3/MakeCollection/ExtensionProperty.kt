@@ -1,7 +1,7 @@
 package CH3.MakeCollection
 
 
-// 확장 프로퍼티 선언
+// 확장 프로퍼티 선언 
 val String.lastChar: Char
     get() = get(length - 1)
 
