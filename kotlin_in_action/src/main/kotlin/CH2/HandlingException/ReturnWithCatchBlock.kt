@@ -29,7 +29,7 @@ fun main() {
     // null 출력
     val reader2 = BufferedReader(StringReader("aaa"))
 
-    CH2.HandlingException.readNumberWithCatch(reader1)
+    readNumberWithCatch(reader1)
 
-    CH2.HandlingException.readNumberWithCatch(reader2)
+    readNumberWithCatch(reader2)
 }
